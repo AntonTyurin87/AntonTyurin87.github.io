@@ -9,6 +9,13 @@ body {
     margin: 0 auto;
   }
   
+section {
+  display: block;
+  border-bottom: 2px solid rgb(147, 143, 143);
+  margin-top: 15px;
+  }
+
+
   h1 {
     padding: 0px 36px 36px 0px;
     font-size: 36px;
@@ -27,6 +34,10 @@ body {
   vertical-align: middle;
  }
 
+ .photo {
+  text-align: right;
+ }
+
  td {
   width: 450px;
   padding: 40px 0px 40px 0px;
@@ -34,11 +45,8 @@ body {
   margin-top: 0;
  }
 
+
  .github {
   width: 1.35em;
   height: 1.35em;
- }
-
- .photo {
-  text-align: right;
  }
